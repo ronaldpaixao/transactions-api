@@ -1,0 +1,32 @@
+{
+  "name": "02---api---rest---nodejs",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.js",
+    "knex": "node --no-warnings -r tsx ./node_modules/knex/bin/cli.js",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^24.5.2",
+    "eslint": "^8.57.1",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "fastify": "^5.6.1",
+    "httpie": "^1.1.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.20.6"
+  }
+}
